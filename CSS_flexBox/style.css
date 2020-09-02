@@ -20,6 +20,7 @@
   flex-grow: 2; /* container안의 item이 커질때 크기 비율 , 기본값 0 */
   flex-shrink: 2; /* container안의 item이 작아질때 크기 비율, 기본값 0 */
   align-self: center; /* item 개별로 cross axis에 위치 지정가능 */
+  text-decoration-color: blue;
 }
 .item2 {
   background: tomato;
