@@ -1,0 +1,51 @@
+.container {
+  background: beige;
+  height: 100vh; /* 보이는 화면 전체 100vh , 아이템 전체차지크기 100%  */
+  display: flex;
+  flex-direction: row; /* 속성 : column */
+  flex-wrap: wrap; /* 기본 : nowrap (브라우저 축소시 아이템 반응형 안됨 */
+  justify-content: space-between; /* 기본 : flex-start ,속석 flex-end, center, space-between, space-even */
+  align-items: baseline; /* cross axis쪽으로 item 정렬 */
+  align-content: space-between;
+}
+
+.item {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+}
+
+.item1 {
+  background: red;
+  flex-grow: 2; /* container안의 item이 커질때 크기 비율 , 기본값 0 */
+  flex-shrink: 2; /* container안의 item이 작아질때 크기 비율, 기본값 0 */
+  align-self: center; /* item 개별로 cross axis에 위치 지정가능 */
+}
+.item2 {
+  background: tomato;
+  flex-basis: 30%; /* container안의 item의 절대 크기 비율지정 */
+}
+.item3 {
+  background: yellow;
+}
+.item4 {
+  background: green;
+}
+.item5 {
+  background: blue;
+}
+.item6 {
+  background: purple;
+}
+.item7 {
+  background: red;
+}
+.item8 {
+  background: tomato;
+}
+.item9 {
+  background: yellow;
+}
+.item10 {
+  background: green;
+}
